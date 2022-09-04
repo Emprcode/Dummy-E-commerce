@@ -12,6 +12,7 @@ body{
 .wrapper{
     display: grid;
     gap: 1rem;
+    grid-template-columns: repeat(3,1fr);
    
     grid-template-areas: 
     "header header header"
@@ -127,6 +128,7 @@ footer{
     .wrapper{
         display: grid;
         gap: 1rem;
+        grid-template-columns: repeat(2,1fr);
        
         grid-template-areas: 
         "header header"
@@ -148,6 +150,7 @@ footer{
     .wrapper{
         display: grid;
         gap: 1rem;
+        grid-template-columns: 1fr;
        
         grid-template-areas: 
         "header"
